@@ -1,7 +1,3 @@
-
-
-
-############### New sheet ###############
 // Inizializza EmailJS con il tuo User ID
 (function() {
   emailjs.init("user_berrit97"); // Sostituisci con il tuo User ID di EmailJS
