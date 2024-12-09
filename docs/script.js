@@ -1,9 +1,10 @@
-// Smooth scrolling for navigation links
-document.querySelectorAll('.navbar a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("Il sito è pronto!");
+
+    // Aggiungi altre funzionalità qui
+    const form = document.querySelector("form");
+    form.addEventListener("submit", function (e) {
         e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        target.scrollIntoView({ behavior: 'smooth' });
+        alert("Grazie per avermi contattato!");
     });
 });
-
