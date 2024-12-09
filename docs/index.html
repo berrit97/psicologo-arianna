@@ -1,93 +1,57 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it-IT">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Psicologa Arianna Berretta - Supporto psicologico e psicoterapia per il benessere emotivo e mentale. Prenota una consulenza ora!">
-    <meta name="keywords" content="psicologa Roma, psicoterapia, supporto psicologico, benessere psicofisico, disturbi apprendimento, Arianna Berretta">
-    <meta name="author" content="Arianna Berretta">
     <title>Psicologa Arianna Berretta</title>
-    <link rel="stylesheet" href="arianna_berretta.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
 
-    <header class="header">
-        <nav>
-            <ul class="navbar">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#intervention">Aree di Intervento</a></li>
-                <li><a href="#about">Chi Sono</a></li>
-                <li><a href="#experience">Esperienze</a></li>
-                <li><a href="#skills">Competenze</a></li>
-                <li><a href="#contact">Contatti</a></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <h1>Benvenuti nello studio di Arianna Berretta</h1>
-            <p>Psicologa a Roma. Aiuto adulti e bambini a superare difficoltà emotive e relazionali.</p>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Dott.ssa Arianna Berretta</h1>
         </div>
     </header>
 
     <main>
-        <!-- Home Section -->
-        <section id="home" class="section">
-            <h2>Benvenuto</h2>
-            <p>Il tuo benessere psicologico è la mia priorità. Offro consulenze individuali e psicoterapia per affrontare difficoltà emotive, relazionali e psicologiche.</p>
+        <section id="home">
+            <h2>Benvenuti</h2>
+            <p>Psicologa Psicoterapeuta a Roma</p>
         </section>
 
-        <!-- Aree di Intervento -->
-        <section id="intervention" class="section">
-            <h2>Aree di Intervento</h2>
-            <ul>
-                <li>Psicoterapia per adulti e bambini</li>
-                <li>Supporto a bambini con DSA, BES, ADHD</li>
-                <li>Gestione dello stress e ansia</li>
-                <li>Consulenza familiare</li>
-            </ul>
+        <section id="services">
+            <h2>Servizi Offerti</h2>
+            <div class="service">
+                <h3>Consulenza Psicologica</h3>
+                <p>Colloqui personalizzati in studio o online.</p>
+            </div>
+            <div class="service">
+                <h3>Sostegno per Famiglie</h3>
+                <p>Supporto per genitori e adolescenti.</p>
+            </div>
         </section>
 
-        <!-- Chi Sono -->
-        <section id="about" class="section">
-            <h2>Chi Sono</h2>
-            <p>Sono Arianna Berretta, psicologa specializzanda in psicoterapia cognitivo-comportamentale. Il mio obiettivo è supportare il benessere psicologico dei miei pazienti, adattando il percorso terapeutico alle loro esigenze.</p>
-            <div class="photo-placeholder">[Immagine foto personale]</div>  <!-- Placeholder per la foto -->
-        </section>
-
-        <!-- Esperienze -->
-        <section id="experience" class="section">
-            <h2>Esperienze Professionali</h2>
-            <ul>
-                <li><strong>Tirocinio a Perugia</strong>: Somministrazione di questionari per ricerche di psicologia sociale.</li>
-                <li><strong>Tirocinio in Spagna</strong>: Progetto e-moe per sensibilizzare i bambini sul tema delle emozioni.</li>
-                <li><strong>Tutoraggio domiciliare</strong>: Supporto a bambini con disturbi dell'apprendimento e attenzione.</li>
-            </ul>
-        </section>
-
-        <!-- Competenze -->
-        <section id="skills" class="section">
-            <h2>Competenze</h2>
-            <ul>
-                <li>Empatia e capacità di ascolto</li>
-                <li>Gestione dello stress</li>
-                <li>Conoscenza delle tecniche ABA e Mindfulness</li>
-            </ul>
-        </section>
-
-        <!-- Contatti -->
-        <section id="contact" class="section">
-            <h2>Contatti</h2>
-            <p>Via Monti di San Paolo 5, 00126 Roma</p>
-            <p>Telefono: 3406834960</p>
-            <p>Email: <a href="mailto:arianna.berr@gmail.com">arianna.berr@gmail.com</a></p>
+        <section id="contact">
+            <h2>Contattami</h2>
+            <form action="mailto:arianna.berr@gmail.com" method="post">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Messaggio</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia</button>
+            </form>
         </section>
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2024 Arianna Berretta - Tutti i diritti riservati</p>
+    <footer>
+        <p>© 2024 Dott.ssa Arianna Berretta. Tutti i diritti riservati.</p>
     </footer>
 
-    <script src="arianna_berretta.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
-
-
